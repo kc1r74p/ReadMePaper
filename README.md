@@ -7,7 +7,7 @@ Just some ESP32 - ePaper 7 Color project 🎉
 
 ### Examples of 24bit BMP ~700kb across WiFi to ESP32 SPIFFS to ePaper
 ![Example](epaper_example.png)
-![Example2](perserverance_first.png)
+![Example2](perseverance_first.png)
 
 ### Set image via REST request
 Using any REST client in the same Network
