@@ -37,10 +37,14 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install --upgrade platformio
-        wget https://github.com/marcoschwartz/aREST/archive/master.zip -O /tmp/aREST.zip
-        unzip /tmp/aREST.zip -d /tmp
+        
+    - name: Checkout aREST library
+      uses: actions/checkout@v2
+      with:
+        repository: marcoschwartz/aREST
+        path: aREST
 
     - name: Run PlatformIO
-      run: pio ci --lib="." --lib="/tmp/aREST-master" --board=featheresp32
+      run: pio ci --lib="." --lib="/aREST" --board=featheresp32
       env:
         PLATFORMIO_CI_SRC: ${{ matrix.src_file }}
