@@ -1,4 +1,6 @@
 # ReadMePaper
+[![Build](https://github.com/kc1r74p/ReadMePaper/actions/workflows/build_esp32.yml/badge.svg)](https://github.com/kc1r74p/ReadMePaper/actions/workflows/build_esp32.yml)
+
 Just some ESP32 - ePaper 7 Color project 🎉
 
 ### Parts used:
