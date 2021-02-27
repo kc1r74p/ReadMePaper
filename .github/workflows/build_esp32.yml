@@ -44,9 +44,6 @@ jobs:
         repository: marcoschwartz/aREST
         path: aREST
         
-    - name: List
-      run: ls -altrh
-      
     - name: Run PlatformIO
       run: pio ci --lib="." --lib="aREST" --board=featheresp32
       env:
