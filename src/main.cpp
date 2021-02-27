@@ -1,6 +1,5 @@
 #include <WiFi.h>
 #include <FS.h>
-#include <Arduino.h>
 #include <aREST.h>
 #include <HTTPClient.h>
 #include "epd5in65f/epd5in65f.h"
