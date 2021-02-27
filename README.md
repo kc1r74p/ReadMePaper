@@ -16,3 +16,7 @@ Using any REST client in the same Network
 ```
 GET: http://<esp32_ip>/load?path=<urlencode(BMP_URL_FOR24BIT_NON_COMPRESSED_IMAGE)>
 ```
+### Setup example - check epdif.h for Pin numbers
+![Example](hookup_example.png)
+
+Also set WiFi params in main.cpp so that it will auto connect on start up
