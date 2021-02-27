@@ -2,8 +2,9 @@ name: Build
 on: 
   push:    
     paths-ignore:
-      - 'README.md'
-      - 'LICENSE.md'
+      - '**.md'
+      - '**.png'
+
 
 jobs:
   build:
